@@ -6,11 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Hash SHA - MD5\HashinhProgram.cs" />
     <Compile Remove="Program.cs" />
     <Compile Remove="RandomNumbers\RandomNum.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Hash SHA - MD5\HashinhProgram.cs" />
     <None Include="Program.cs" />
     <None Include="RandomNumbers\RandomNum.cs" />
   </ItemGroup>
