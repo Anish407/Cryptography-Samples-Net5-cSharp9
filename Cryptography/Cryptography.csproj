@@ -7,10 +7,12 @@
 
   <ItemGroup>
     <Compile Remove="Program.cs" />
+    <Compile Remove="RandomNumbers\RandomNum.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Program.cs" />
+    <None Include="RandomNumbers\RandomNum.cs" />
   </ItemGroup>
 
 </Project>
